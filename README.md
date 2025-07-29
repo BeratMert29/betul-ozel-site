@@ -1,69 +1,38 @@
-# React + TypeScript + Vite
+# 💕 Betül İçin Özel Site
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu site, Betül için özel olarak hazırlanmış romantik bir web uygulamasıdır.
 
-Currently, two official plugins are available:
+## 🌟 Özellikler
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 💖 Romantik animasyonlar ve efektler
+- 🎵 Arka plan müziği
+- 📸 Özel fotoğraf galerisi
+- 🔐 Özel giriş sistemi
+- 💝 Sevgili olma teklifi
 
-## Expanding the ESLint configuration
+## 🚀 Canlı Demo
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+**Site Linki:** https://betul-lbpleqvci-merts-projects-326228f6.vercel.app
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🛠️ Teknolojiler
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+- React 19
+- TypeScript
+- Vite
+- Framer Motion
+- Lucide React
+- Vercel (Deployment)
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 📸 Ekran Görüntüleri
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Site, özel bir giriş sistemi ile korunmaktadır ve sadece belirli kişiler tarafından erişilebilir.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 💝 Amaç
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Bu site, romantik bir teklif için özel olarak tasarlanmıştır ve birlikte geçirilen güzel anıları hatırlatmayı amaçlamaktadır.
+
+---
+
+**Yapıldığı Tarih:** Temmuz 2025  
+**Yapan:** Berat Mert  
+**İçin:** Betül Kurt 💕
